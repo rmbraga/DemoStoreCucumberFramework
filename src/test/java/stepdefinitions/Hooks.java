@@ -16,7 +16,7 @@ public class Hooks extends TestBase {
 
 	@Before
 	public void beforeScenario(Scenario scenario) {
-		Reporter.assignAuthor("ToolsQA - Lakshay Sharma");
+		Reporter.assignAuthor("Braga");
 	}
 
 	@After
