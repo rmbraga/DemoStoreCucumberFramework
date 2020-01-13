@@ -77,7 +77,7 @@ public class TestBase {
 		try {
 			new WebDriverWait(driver, timeout).until(ExpectedConditions.presenceOfElementLocated(by));
 		} catch (TimeoutException t) {
-			String erro = "assertExists: Elemento selecionaro pelo " + by.toString() + " não foi encontrado na tela.";
+			String erro = "assertExists: Elemento selecionado pelo " + by.toString() + " não foi encontrado na tela.";
 			System.out.println(erro);
 		}
 	}
